@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    margin: 20px;
+    margin-left: 0px;
+    margin-top: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #137518;
+}
+
+#comicDisplay {
+    margin-top: 20px;
+}
+
+.panel-container {
+    margin-bottom: 20px;
+}
+
+
+/* for speech-bubble */
+.panel-container {
+    position: relative;
+    margin-bottom: 20px; /* Adjust the margin as needed for spacing between panel and annotation pairs */
+}
+.speech-bubble {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 200px;
+    top: 10px; /* Adjust the top and left values to position the speech bubble */
+    left: 10px;
+}
+/* .panel-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+.speech-bubble {
+    position: absolute;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 400px;
+    top: 10px;
+    left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.speech-bubble::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pngegg_speech_bubble.png');
+    background-size: cover;
+    z-index: -1;
+} */
+#annotation1, #annotation2, #annotation3, #annotation4, #annotation5, #annotation6, #annotation7, #annotation8, #annotation9, #annotation10 {
+    z-index: 9999;
+}
